@@ -10,4 +10,4 @@ Also a global brightness control has been implemented, similar to the one used i
 Added keywords for syntax highlighting in the Arduino IDE.
 April 2nd, 2015
 - Marv aka eMGoz or MGOS
-emgoz.blogspot.de
+http://emgoz.blogspot.de/
