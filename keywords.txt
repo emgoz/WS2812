@@ -1,0 +1,11 @@
+
+#######################################
+WS2812	KEYWORD1
+getRGB	KEYWORD2
+setRGB	KEYWORD2
+setHSV	KEYWORD2
+setBrightness 	KEYWORD2
+setBrightnessLinear 	KEYWORD2
+getBrightness 	KEYWORD2
+sync	KEYWORD2
+setOutput	KEYWORD2
