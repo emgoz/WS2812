@@ -13,7 +13,7 @@ void setup() {
 void loop() {
   static byte t;
   for (int i = 0; i < LEDCount; i++){
-    byte hue = LEDCount+t;
+    byte hue = ((i*192)/LEDCount+t)%192;
     LED.setHSV(i, hue, 255,255);
   
   }
@@ -22,6 +22,9 @@ void loop() {
   
   
   t++;
+  if (t >= 192){
+    t = 0;
+  }
   
   
   delay(10);

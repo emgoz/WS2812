@@ -2,12 +2,6 @@
 #######################################
 WS2812	KEYWORD1
 getRGB	KEYWORD2
-getR	KEYWORD2
-getG	KEYWORD2
-getB	KEYWORD2
-getH	KEYWORD2
-getS	KEYWORD2
-getV	KEYWORD2
 setRGB	KEYWORD2
 setHSV	KEYWORD2
 setBrightness 	KEYWORD2
