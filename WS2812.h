@@ -9,6 +9,8 @@
 * April 2, 2015
 * Marv aka eMGoz or MGOS
 *
+* May 15: Changed hue parameter from to range 0..255
+*
 */
 
 #ifndef WS2812_H_
@@ -85,6 +87,12 @@ public:
 
 
     uint32_t getRGB(uint16_t index);
+    uint8_t  getR(uint16_t index);
+    uint8_t  getG(uint16_t index);
+    uint8_t  getB(uint16_t index);
+    uint8_t  getH(uint16_t index);
+    uint8_t  getS(uint16_t index);
+    uint8_t  getV(uint16_t index);
     void setRGB(uint16_t index, uint32_t rgb);
     void setRGB(uint16_t index, uint8_t r, uint8_t g, uint8_t b);
     void setHSV(uint16_t index, uint8_t hue, uint8_t sat, uint8_t val);  // hue between 0 and 191
